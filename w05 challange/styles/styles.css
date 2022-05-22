@@ -1,0 +1,22 @@
+body{
+    background-color: gray;
+    text-align: center;
+    margin: 0;
+}
+div{
+  background-color: grey;
+  margin: 0;
+  width: 100%;
+}
+#circles{
+   width: 100%;
+   margin: 0;   
+}
+div img{
+   margin: 2.5%;
+   width: 15%;
+   border-radius: 100%;
+   border: 10px solid #4a4238;
+
+
+}
