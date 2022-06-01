@@ -188,7 +188,12 @@ footer h3 a:hover{
 }
 footer .social img {
     padding-top: 15px;
+    transition: transform .5;
 }  
+footer .social img:hover{
+    transform: scale(1.1);
+
+}
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
