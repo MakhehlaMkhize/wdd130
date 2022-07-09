@@ -1,0 +1,44 @@
+section {
+    width: 30%;
+    border: 1px solid;
+  }
+
+.block1 {
+    text-align: left;
+  
+}
+.block2{
+    text-align: center;
+    
+    margin-left: 15%;
+}
+.block3{
+    text-align: right;
+    
+    margin-left:30%;
+}
+.block4{
+    text-align: center;
+    
+    margin-left: 10%;
+
+}
+.p1{
+    text-align: left;
+}
+.p2{
+    text-align: center;
+}
+.p3{
+    text-align: right;
+}
+.block4 .p1{
+    text-align: right;
+}
+.block4 .p2{
+    text-align: center;
+}
+.block4 .p4, .block4 .p3{
+    text-align: left;
+}
+
