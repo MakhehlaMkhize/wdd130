@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Paprika&display=swap');
-body{
+#home_page{
     margin-bottom: 0px;
     margin-left: 0;
     margin-right: 0;
@@ -7,7 +7,7 @@ body{
     position: relative;
 
 }
-body::before{
+#home_page::before{
     content: '';
     position: absolute;
     top: 0;
@@ -85,4 +85,61 @@ footer img:hover{
 }
 footer p{
     color: #ffffff;
+}
+/* About page*/
+#about_page{
+    margin-bottom: 0px;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+    position: relative;
+
+}
+#about_page::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('../images/futuristic_passage.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+}
+#about_page main{
+    text-align: center;
+}
+#intro{
+    font-family: paprika, cursive;
+    color: #9e771d;
+    font-size: 20px;
+    position: relative;
+    width: 400px;
+    background-color: #460757;
+    border-radius: 20px;
+}
+#products{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    font-family: paprika, cursive;
+    color: #000000;
+    font-size: 20px;
+    position: relative;
+    background-color: #9e771d;
+    width: 400px;
+    margin-left: 400px;
+    border-radius: 20px;
+}
+#name{
+    grid-column: 3/4;
+    grid-row: 3/4;
+    font-family: paprika, cursive;
+    color: #ffffff;
+    font-size: 25px;
+    position: relative;
+    width: 400px;
+    background-color: #000000;
+    border-radius: 20px;
+    margin-left: 800px;
 }
